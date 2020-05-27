@@ -1,0 +1,54 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/menu_filter"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        android:showAsAction="always"
+        android:title="sort"
+        tools:ignore="AppCompatResource">
+        <menu>
+            <item
+                android:id="@+id/menu_change_to_system_only"
+                android:title="@string/menu_change_to_system_only"
+                >
+            </item>
+            <item
+                android:id="@+id/menu_change_to_not_system_only"
+                android:title="@string/menu_change_to_not_system_only"
+                >
+            </item>
+            <item
+                android:id="@+id/menu_change_to_all"
+                android:title="@string/menu_change_to_all"
+                >
+            </item>
+            <item
+                android:id="@+id/menu_change_to_selected"
+                android:title="@string/menu_change_to_selected"
+                >
+            </item>
+            <item
+                android:id="@+id/menu_change_to_common"
+                android:title="@string/menu_change_to_common"
+                >
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/clear"
+        app:showAsAction="never"
+        android:title="@string/clear" />
+    <item
+        android:id="@+id/setting"
+        app:showAsAction="never"
+        android:title="@string/setting" />
+
+    <item
+        android:id="@+id/detail"
+        app:showAsAction="never"
+        android:title="@string/detail" />
+</menu>

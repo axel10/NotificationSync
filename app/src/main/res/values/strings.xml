@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">重要通知</string>
+    <string name="app_key">app</string>
+
+    <string name="menu_change_to_system_only">仅显示系统应用</string>
+    <string name="menu_change_to_not_system_only">仅显示第三方应用</string>
+    <string name="menu_change_to_all">显示所有应用</string>
+    <string name="menu_change_to_common">显示常见应用</string>
+    <string name="menu_change_to_selected">显示已选择应用</string>
+    <string name="clear">清除所有已选</string>
+    <string name="setting">设置</string>
+    <string name="detail">说明</string>
+
+</resources>

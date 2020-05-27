@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_top">15dp</dimen>
+    <dimen name="row_spacing">0dp</dimen>
+
+    <dimen name="design_navigation_icon_size">10dp</dimen>
+</resources>
