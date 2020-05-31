@@ -143,7 +143,7 @@ class AppListActivity : AppCompatActivity() {
             R.id.detail -> {
                 val dialog = AlertDialog.Builder(this)
                 dialog.setTitle("说明")
-                dialog.setMessage("重要通知是一款将重要的通知转换为邮件的应用。通过设置smtp服务器和邮箱账号及授权码即可接收通知邮件。")
+                dialog.setMessage("重要通知是一款将重要的通知转换为邮件的应用。选择相应的应用并设置smtp服务器和邮箱账号及授权码即可接收通知邮件。")
                 dialog.setNegativeButton(
                     "确定"
                 ) { _, _ ->
